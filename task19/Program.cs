@@ -24,3 +24,33 @@ if (is_palindrome)
     Console.WriteLine("Число является палиндромом");
 else
     Console.WriteLine("Число не является палиндромом");
+
+// Console.Clear();
+// Console.Write("Введите число: ");
+// string n = Console.ReadLine()!;
+// while (n.Length != 5)
+// {
+//     Console.Write("Вы ошиблись!\nВведите число: ");
+//     n = Console.ReadLine()!;
+// }
+// if (n[0] == n[4] && n[1] == n[3])
+//     Console.WriteLine("yes");
+// else
+//     Console.WriteLine("no");
+
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int n = int.Parse(Console.ReadLine()!);
+// while (n < 10000 || n > 99999)
+// {
+//     Console.Write("Вы ошиблись!\nВведите число: ");
+//     n = int.Parse(Console.ReadLine()!);
+// }
+// int n1 = n / 10000;
+// int n2 = (n / 1000) % 10;
+// int n4 = (n % 100) / 10;
+// int n5 = n % 10;
+// if (n1 == n5 && n2 == n4)
+//     Console.WriteLine("yes");
+// else
+//     Console.WriteLine("no");
