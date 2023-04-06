@@ -1,4 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Задача 66: Задайте значения M и N. 
+// Напишите программу, которая найдёт сумму натуральных элементов в промежутке
 int get_sum(int n, int m)
 {
     int sum = 0;
