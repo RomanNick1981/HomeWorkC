@@ -1,4 +1,4 @@
-﻿/ final task
+﻿// final task
 int menu(int error)
 {
     Console.Clear();
@@ -23,7 +23,7 @@ void print_array(int size, string[] arr)
         else
             Console.Write("“" + arr[i] + "”");
     }
-    Console.Write("]");
+    Console.WriteLine("]");
 }
 
 int res = menu(0);
